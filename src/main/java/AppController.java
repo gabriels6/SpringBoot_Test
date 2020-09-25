@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppController {
 	
-	//@Value - injetar todos os valores das configurações com a notação
+	//@Value - inject all configuration values with the annotation 
 	@Value("${application.message}")
 	private String appMessage;
 	
